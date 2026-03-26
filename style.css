@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(164, 180, 164);
+}
+
+#FonteA {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(109, 61, 109);
+}
+
+.FonteB {
+    font-family: Comic Sans MS;
+    color: rgb(102, 27, 172);
+}
