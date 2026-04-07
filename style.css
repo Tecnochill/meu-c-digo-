@@ -10,4 +10,17 @@ body {
 .FonteB {
     font-family: Comic Sans MS;
     color: rgb(102, 27, 172);
+    justify-content: center;
+    display:flex;
+}
+
+.container {
+    display: flex;
+    align-items:center;
+    gap:20px;
+}
+
+.imagem {
+    max-width:20px;
+    height:auto;
 }
