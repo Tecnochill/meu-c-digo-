@@ -1,12 +1,51 @@
-var aluno1 = "mayk";
-var notaAluno1 = 9.8;
+let idade = 20;
+let temConvite = true;
 
-var aluno2 = "diego";
-var notaAluno2 = 10;
+if (idade >= 18 && temConvite) {
+    console.log("Pode entrar.");
+} else {
+    console.log("Não pode entrar.");
+}
 
-var aluno3 = "Ana";
-var notaAluno3 = 0.0;
+let desconto = true;
+let Temlogin = false;
+if (desconto && Temlogin) {
+    console.log("Tem desconto a aplicar");
+} else {
+    console.log("Não tem desconto a aplicar");
+}
 
-const media = (notaAluno1 + notaAluno2 + notaAluno3 ) /3;
+let BlackFriday = false;
+let temCupom = true;
 
-alert(media);
+if (BlackFriday || temCupom) {
+    console.log("Produto com desconto!");
+} else {
+    console.log("Preço normal.");
+}
+
+let dia = "sábado";
+
+if (dia === "sábado" || dia === "domingo") {
+  console.log("É fim de semana!");
+} else {
+  console.log("É dia de semana.");
+}
+
+let PercyJackson;
+let HarryPotter;
+
+if (PercyJackson!= HarryPotter) {
+    console.log("São do mesmo autor");
+} else {
+    console.log ("Não são do mesmo autor");
+}
+
+let Princesa;
+let Cavaleiro;
+
+if (Princesa!=Cavaleiro) {
+    console.log("Podem se apaixonar");
+} else {
+    console.log ("Não podem se apaixonar");
+}
