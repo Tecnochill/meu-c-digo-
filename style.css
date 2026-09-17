@@ -1,17 +1,23 @@
-body {
-    background-color: rgb(164, 180, 164);
+html, body {
+    height: 100%;
+    margin: 0;
 }
-
+body {
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(129, 39, 39));
+}
 #FonteA {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(109, 61, 109);
+    color:rgb(171, 209, 178);
+    text-align: center;
+    font-size: 40px;
 }
 
 .FonteB {
     font-family: Comic Sans MS;
-    color: rgb(102, 27, 172);
+    color: rgb(156, 106, 106);
     justify-content: center;
     display:flex;
+    font-size:25px;
 }
 
 .container {
@@ -23,4 +29,5 @@ body {
 .imagem {
     max-width:400px;
     height:auto;
+    border: 2.5px solid rgb(128, 47, 47);
 }
